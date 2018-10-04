@@ -37,8 +37,12 @@
     border-top-color: $accent !important;
   }
 
-  .p-file_flexpane.p-file_flexpane--list{
+  .p-file_flexpane.p-file_flexpane--list {
     background: $bg;
+  }
+  .c-pillow_file_container.p-contextual_file.p-file_list__file.c-pillow_file_container--full_width {
+    background: $bg;
+    color: $text
   }
 }
 
