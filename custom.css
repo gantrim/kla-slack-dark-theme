@@ -791,7 +791,8 @@ ts-mention:hover {
 #flex_contents .p-file_flexpane.p-file_flexpane--list {
   background: var(--background);
 }
-#flex_contents .c-pillow_file_container.p-contextual_file.p-file_list__file.c-pillow_file_container--full_width {
+
+.c-pillow_file_container.p-contextual_file.p-file_list__file.c-pillow_file_container--full_width {
   background: var(--background);
   color: var(--text);
 }
