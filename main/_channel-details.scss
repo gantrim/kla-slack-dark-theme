@@ -19,6 +19,12 @@
       color: $text !important;
     }
   }
+  .subheading:not(:empty)#mentions_options {
+    background: $bg;
+    border-top: 0;
+    border-bottom: 1px solid $bg;
+    color: $textBright;
+  }
 
   .flexpane_tab_bar {
     li.active {

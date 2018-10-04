@@ -775,6 +775,12 @@ ts-mention:hover {
 #flex_contents .subheading .menu_icon {
   color: var(--text) !important;
 }
+#flex_contents .subheading:not(:empty)#mentions_options {
+  background: var(--background);
+  border-top: 0;
+  border-bottom: 1px solid var(--background);
+  color: var(--text-bright);
+}
 #flex_contents .flexpane_tab_bar li.active {
   border-bottom-color: var(--accent);
 }
