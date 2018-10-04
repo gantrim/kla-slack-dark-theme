@@ -779,7 +779,7 @@ ts-mention:hover {
   background: var(--background);
   border-top: 0;
   border-bottom: 1px solid var(--background);
-  color: var(--text-bright);
+  color: var(--text);
 }
 #flex_contents .flexpane_tab_bar li.active {
   border-bottom-color: var(--accent);
@@ -787,6 +787,9 @@ ts-mention:hover {
 #flex_contents .help {
   color: var(--text) !important;
   border-top-color: var(--accent) !important;
+}
+#flex_contents .p-file_flexpane.p-file_flexpane--list {
+  background: var(--background);
 }
 
 #details_tab .channel_page_section {

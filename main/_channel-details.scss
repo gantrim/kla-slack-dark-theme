@@ -23,7 +23,7 @@
     background: $bg;
     border-top: 0;
     border-bottom: 1px solid $bg;
-    color: $textBright;
+    color: $text;
   }
 
   .flexpane_tab_bar {
@@ -35,6 +35,10 @@
   .help {
     color: $text !important;
     border-top-color: $accent !important;
+  }
+
+  .p-file_flexpane.p-file_flexpane--list{
+    background: $bg;
   }
 }
 
