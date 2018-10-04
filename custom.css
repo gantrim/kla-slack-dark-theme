@@ -797,6 +797,10 @@ ts-mention:hover {
   color: var(--text);
 }
 
+.c-pillow_file__title {
+  color: var(--text-bright);
+}
+
 #details_tab .channel_page_section {
   background: var(--background-elevated) !important;
   border-top: 1px solid var(--border-dim) !important;

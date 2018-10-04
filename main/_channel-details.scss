@@ -44,7 +44,11 @@
 
 .c-pillow_file_container.p-contextual_file.p-file_list__file.c-pillow_file_container--full_width {
   background: $bg;
-  color: $text
+  color: $text;
+}
+
+.c-pillow_file__title {
+  color: $textBright;
 }
 
 #details_tab {
